@@ -9,7 +9,7 @@ export const getAllData = async (
   next: NextFunction
 ) => {
   try {
-    const users = await User.find();
+    const users = await User.find().select("-password").lean().exec();
     if (!users || users.length === 0) {
       res.status(404);
       throw new Error("No users found");
