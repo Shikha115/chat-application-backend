@@ -12,7 +12,6 @@ A **real-time chat application backend** built with Node.js, Express, and TypeSc
 - **Real-time Messaging**: WebSocket-based messaging with Socket.IO.
 - **User Authentication**: JWT-based login and registration.
 - **Chat Management**: Create and manage one-on-one and group chats.
-- **File Uploads**: Support for image uploads.
 - **Database**: MongoDB with Mongoose.
 
 ## Tech Stack
