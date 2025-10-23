@@ -3,6 +3,7 @@ import { CorsOptions } from "cors";
 const whitelist = [
   process.env.Web_URL,
   "http://localhost:8080",
+  "https://sj-connect.onrender.com",
   "https://chat-application-backend-yj2w.onrender.com",
   "http://localhost:3000",
   "http://192.168.10.106:3000",
